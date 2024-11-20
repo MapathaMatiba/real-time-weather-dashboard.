@@ -40,3 +40,47 @@ real-time-weather-dashboard/
 ├── weather_data.db          # SQLite database for storing weather data
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
+
+Installation and Usage 🛠️
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/real-time-weather-dashboard.git
+cd real-time-weather-dashboard
+Set Up the Environment:
+
+bash
+Copy code
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+pip install -r requirements.txt
+Add Your API Key:
+
+Replace your_api_key in fetch_weather_data.py with your OpenWeatherMap API key.
+Run the Scripts:
+
+Fetch Weather Data:
+bash
+Copy code
+python fetch_weather_data.py
+Automate Data Fetching:
+bash
+Copy code
+python scheduler.py
+Run the Dashboard:
+bash
+Copy code
+streamlit run streamlit_app.py
+View the Dashboard:
+
+Open http://localhost:8501 in your browser.
+Example Visualizations 📊
+Temperature Trends
+
+Regional Representation (Heatmap)
+
+Future Enhancements 🔮
+Support for additional APIs and weather data metrics.
+Deployment to a cloud platform (e.g., Streamlit Cloud, Heroku).
+Real-time notifications for significant weather changes.
