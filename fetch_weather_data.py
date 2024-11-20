@@ -4,7 +4,7 @@ from datetime import datetime
 from sqlalchemy import create_engine
 
 # API configuration
-API_KEY = "287f09180558827361dc8d3422a170de"  # Replace with your actual API key
+API_KEY = "input-your-API_KEY"  # Replace with your actual API key
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"  # Fixed the missing scheme
 
 # Function to fetch weather data
