@@ -29,19 +29,8 @@ This project is a real-time weather data pipeline and dashboard that demonstrate
 3. **Visualization**:
    - The `streamlit_app.py` script builds an interactive dashboard using Streamlit.
    - Users can filter data by cities and view weather trends.
-
-## Project Structure 📂
-
-```plaintext
-real-time-weather-dashboard/
-├── fetch_weather_data.py    # Script to fetch and process weather data
-├── scheduler.py             # Script to automate data fetching
-├── streamlit_app.py         # Streamlit dashboard for visualization
-├── weather_data.db          # SQLite database for storing weather data
-├── requirements.txt         # Python dependencies
-├── README.md                # Project documentation
-
-## Installation and Usage 🛠️
+   - 
+##  **Installation and Usage** 🛠️
 Clone the Repository:
 
 bash
@@ -84,3 +73,15 @@ Future Enhancements 🔮
 Support for additional APIs and weather data metrics.
 Deployment to a cloud platform (e.g., Streamlit Cloud, Heroku).
 Real-time notifications for significant weather changes.
+
+## Project Structure 📂
+
+```plaintext
+real-time-weather-dashboard/
+├── fetch_weather_data.py    # Script to fetch and process weather data
+├── scheduler.py             # Script to automate data fetching
+├── streamlit_app.py         # Streamlit dashboard for visualization
+├── weather_data.db          # SQLite database for storing weather data
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+
