@@ -41,7 +41,7 @@ real-time-weather-dashboard/
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
 
-Installation and Usage 🛠️
+## Installation and Usage 🛠️
 Clone the Repository:
 
 bash
